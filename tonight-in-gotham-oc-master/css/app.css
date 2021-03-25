@@ -387,6 +387,11 @@ p {
     .content section {
         width: 464px;
     }
+
+    .weekly-content-table td, .weekly-content-table th {
+        font-size: 0.7em;
+    }
+
 }
 
 
@@ -408,6 +413,11 @@ p {
         display: block;
         width: 300px;
     }
+
+    .weekly-content-table td, .weekly-content-table th {
+        font-size: 0.6em;
+    }
+
 }
 
 
@@ -420,6 +430,11 @@ p {
     .header-dropdown {
         transform: translate(-300px, 200px);
     }
+
+    .weekly-content-table td, .weekly-content-table th {
+        font-size: 0.5em;
+    }
+
 }
 
 @media screen and (max-width: 562px) {
@@ -438,6 +453,10 @@ p {
 
     .decorative-aside {
         display: none;
+    }
+
+    .weekly-content-table td, .weekly-content-table th {
+        font-size: 0.3em;
     }
 }
 
