@@ -359,12 +359,29 @@ p {
     .header-search {
         margin-left: 200px;
     }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .content section {
+        width: 564px;
+    }
+
 }
 
 @media screen and (max-width: 798px) {
     
     .header-search {
         margin-left: 100px;
+    }
+
+    h1, h2 {
+        font-size: 2em;
+    }
+
+    .content section {
+        width: 464px;
     }
 }
 
@@ -373,6 +390,14 @@ p {
     
     .header-search {
         margin-left: 10px;
+    }
+
+    .content section {
+        width: 264px;
+    }
+
+    h1, h2 {
+        font-size: 1.6em;
     }
 }
 
@@ -400,6 +425,10 @@ p {
 
     .header-navigation ul {
         padding-left: 2px;
+    }
+
+    .decorative-aside {
+        display: none;
     }
 }
 
