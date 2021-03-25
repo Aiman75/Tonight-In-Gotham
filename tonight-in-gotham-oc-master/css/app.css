@@ -368,6 +368,10 @@ p {
         width: 564px;
     }
 
+    .footer {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 798px) {
@@ -398,6 +402,11 @@ p {
 
     h1, h2 {
         font-size: 1.6em;
+    }
+
+    .footer-navigation {
+        display: block;
+        width: 300px;
     }
 }
 
